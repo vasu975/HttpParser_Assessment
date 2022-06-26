@@ -33,32 +33,32 @@ parser can output an error message and abort parsing.
 
 ## Methodology 
 
-1)Implemented Class HttpParser in C++.
+1. Implemented Class HttpParser in C++.
 
-2)It maintains below member varaiables.
-    1) Number of valid Headers
-    2) Number of invalid Headers
-	3) HTTP Response: It contains start information. Example: HTTP/1. 
-	4) Http Version Number: 
-	5) Status Code: Response Status Code
-	6) Status Message: Response Status Message
-	7) Output Response: Output of HTTP Parser program
-	8) Header Map: It holds Header key and value
+2. It maintains below member varaiables.
+	1. Number of valid Headers
+	2. Number of invalid Headers
+	3. HTTP Response: It contains start information. Example: HTTP/1. 
+	4. Http Version Number: 
+	5. Status Code: Response Status Code
+	6. Status Message: Response Status Message
+	7. Output Response: Output of HTTP Parser program
+	8. Header Map: It holds Header key and value
 	
-3) It contains below methods
-    1) validateHttpStatusHeader :  It Validates first line of HTTP response
-	2) validateOtherHeaders :  It validates all header line and stores header keys and values in header map.
-	3) getHeaderValue : Returns header value of header key.
+3. It contains below methods
+	1. validateHttpStatusHeader :  It Validates first line of HTTP response
+	2. validateOtherHeaders :  It validates all header line and stores header keys and values in header map.
+	3. getHeaderValue : Returns header value of header key.
 
 ## Future Work 
-1) Validating all header keys and values with detailed specifications.
-2) Adding test cases based on different type of HTTP responses and modify code.
+- Validating all header keys and values with detailed specifications.
+- Adding test cases based on different type of HTTP responses and modify code.
 
 
 Execution
-1) Execute code by copy pasting  code in coding minutes online ide.
+- Execute code by copy pasting  code in coding minutes online ide.
    https://ide.codingminutes.com/
-2) It is as follows in below screensot.
+- It is as follows in below screensot.
 ![image](https://user-images.githubusercontent.com/60496195/166647199-236fe68a-a066-485a-b81f-17799c9ecbb2.png)
 
 ## References
