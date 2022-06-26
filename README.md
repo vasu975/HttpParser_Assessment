@@ -34,7 +34,6 @@ parser can output an error message and abort parsing.
 ## Methodology 
 
 1. Implemented Class HttpParser in C++.
-
 2. It maintains below member varaiables.
 	1. Number of valid Headers
 	2. Number of invalid Headers
@@ -44,7 +43,6 @@ parser can output an error message and abort parsing.
 	6. Status Message: Response Status Message
 	7. Output Response: Output of HTTP Parser program
 	8. Header Map: It holds Header key and value
-	
 3. It contains below methods
 	1. validateHttpStatusHeader :  It Validates first line of HTTP response
 	2. validateOtherHeaders :  It validates all header line and stores header keys and values in header map.
