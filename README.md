@@ -58,7 +58,7 @@ parser can output an error message and abort parsing.
 Execution
 - Execute code by copy pasting  code in coding minutes online ide.
    https://ide.codingminutes.com/
-- It is as follows in below screensot.
+- It is as follows in below screenshot.
 ![image](https://user-images.githubusercontent.com/60496195/166647199-236fe68a-a066-485a-b81f-17799c9ecbb2.png)
 
 ## References
