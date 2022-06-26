@@ -56,7 +56,7 @@ parser can output an error message and abort parsing.
 ## Execution
 - Execute code by copy pasting  code in coding minutes online ide.
    https://ide.codingminutes.com/
-- It is as follows in below screenshot.
+- It is as follows in below screenshot with Input and Output.
 ![image](HTTP_PARSER_1.jpg)
 
 ## References
