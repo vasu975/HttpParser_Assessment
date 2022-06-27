@@ -48,16 +48,17 @@ parser can output an error message and abort parsing.
 	2. validateOtherHeaders :  It validates all header line and stores header keys and values in header map.
 	3. getHeaderValue : Returns header value of header key.
 
-## Future Work 
-- Validating all header keys and values with detailed specifications.
-- Adding test cases based on different type of HTTP responses and modify code.
-
-
 ## Execution
+- Added 9 testcases in file Testcases.xslx with test case description, input and output.
 - Execute code by copy pasting  code in coding minutes online ide.
    https://ide.codingminutes.com/
 - It is as follows in below screenshot with Input and Output.
 ![image](HTTP_PARSER_1.jpg)
+
+
+## Future Work 
+- Validating all header keys and values with detailed specifications.
+- Adding test cases based on different type of HTTP responses and modify code.
 
 ## References
 * Datatracker documentation- https://datatracker.ietf.org/doc/html/rfc7230#section-3
